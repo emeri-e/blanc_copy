@@ -1,0 +1,25 @@
+django~=4.2
+djangorestframework
+django-filter
+djangorestframework-simplejwt
+drf-nested-routers
+pytest-django
+django-cors-headers
+markdown
+drf_yasg
+drf_spectacular
+whitenoise
+gunicorn
+python-dotenv
+django-countries
+django-extensions
+werkzeug
+pyOpenSSL
+rave-python
+python-decouple
+resend
+# psycopg2
+django-environ
+dj-rest-auth
+django-allauth
+six
