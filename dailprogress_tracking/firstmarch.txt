@@ -1,0 +1,1 @@
+implement storing of bank each time

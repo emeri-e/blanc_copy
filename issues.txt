@@ -1,0 +1,5 @@
+edit fetch_price.py to fetch coin price from coinbase
+
+first, you need to update the _credit method of Wallet model such that when it is called, the users paystack subaccount will be credited and then the available balance will also be 
+
+second, the _debit method of Wallet model should send the money from the users paystack subaccount to the chosen bank account and then update the available balance of the wallet model
