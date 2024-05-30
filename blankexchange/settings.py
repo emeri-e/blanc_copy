@@ -207,3 +207,4 @@ BITGO_ACCESS_TOKEN = config('BITGO_ACCESS_TOKEN')
 BITGO_PRODUCTION_URL = "https://www.bitgo.com/api/v2"
 BITGO_TEST_URL = "https://test.bitgo.com/api/v2"
 ALLOWED_BLOCKCHAINS = config('ALLOWED_BLOCKCHAINS',  default=['trx','bep',], cast=Csv())
+ENTERPRISE_ID = '663b3119e13a623a0ca95e689d91d4cb'

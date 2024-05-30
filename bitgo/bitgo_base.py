@@ -34,9 +34,9 @@ class BitGo:
                 coin,
             )
         payload = {
-            "label": "Express Generated ttrx Wallet",
-            "passphrase": "passphrase123456789",
-            "enterprise": "65e40cd5e88a23df811fefe479ca3e18",
+            "label": f"{coin} Wallet",
+            "passphrase": "blancexchange@1960",
+            "enterprise": settings.ENTERPRISE_ID,
             "disableTransactionNotifications": True,
             "disableKRSEmail": True
             }
@@ -56,7 +56,6 @@ class BitGo:
         r = requests.get(self.url + '/wallets', headers={
           'Authorization': 'Bearer %s' % self.access_token,
         })
-
         return r.json()
 
     def get_wallet(self,coin, wallet_id):
